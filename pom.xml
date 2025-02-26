@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.bedework</groupId>
+    <artifactId>bedework-parent</artifactId>
+    <version>200-SNAPSHOT</version>
+  </parent>
+
+  <groupId>org.bedework.bwllc</groupId>
+  <artifactId>bw-calendar-llc</artifactId>
+  <version>5.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Bedework: calendar low level client</name>
+  <description>Calendar low level client code for bedework</description>
+  <url>https://github.com/Bedework/bw-calendar-llc</url>
+
+  <modules>
+    <module>bw-calendar-llc-common</module>
+    <module>bw-calendar-llc-ro</module>
+  </modules>
+
+  <scm>
+    <connection>scm:git:git@github.com:Bedework/bw-calendar-llc.git</connection>
+    <developerConnection>scm:git:git@github.com:Bedework/bw-calendar-llc.git</developerConnection>
+    <url>https://github.com/Bedework/bw-calendar-llc</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <dependencyManagement>
+  </dependencyManagement>
+</project>
