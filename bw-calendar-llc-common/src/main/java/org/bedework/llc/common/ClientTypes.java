@@ -5,7 +5,7 @@ public interface ClientTypes {
     // Unauthenticated
     guest,
 
-    // Pretty much same as guest but it's the public client view
+    // Pretty much same as guest, but it's the public client view
     publick,
 
     // Again much the same but a public feeder
